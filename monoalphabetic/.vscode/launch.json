@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hyeonwoo/Desktop/GitHub/git-blog/monoalphabetic",
+      "program": "/Users/hyeonwoo/Desktop/GitHub/git-blog/monoalphabetic/build/Debug/outDebug"
+    }
+  ]
+}

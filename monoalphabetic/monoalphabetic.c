@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include "function.h"
 #define ALPHABET_SIZE 26
-#define MAX_LINE_LENGHT 1000
+#define MAX_LINE_LENGTH 1000
 #define MAX_LINE_LIST 1000
 
 
@@ -11,7 +11,7 @@ int main(void) {
   char plaintext[100]; // 평문
   char uniqueChars[ALPHABET_SIZE] = {0}; // 중복되는 문자를 제거한 문자열 //key와 동일함.
   char substitutionTable[2][ALPHABET_SIZE]; // 알파벳 대칭표
-  char secrettext[MAX_LINE_LENGHT]; // 암호문
+  char secrettext[MAX_LINE_LENGTH]; // 암호문
   int n; // while문 이용 변수
   int j = 0; //for 문 이용 변수
   
@@ -126,6 +126,4 @@ int main(void) {
   }
    
 }
-
-
 
